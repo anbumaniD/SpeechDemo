@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C49427F1D48D22A007559A4 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C49427E1D48D22A007559A4 /* CustomSlider.swift */; };
 		C0952D001A8A1D4700BF69BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0952CFF1A8A1D4700BF69BF /* AppDelegate.swift */; };
 		C0952D021A8A1D4700BF69BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0952D011A8A1D4700BF69BF /* ViewController.swift */; };
 		C0952D051A8A1D4700BF69BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0952D031A8A1D4700BF69BF /* Main.storyboard */; };
 		C0952D071A8A1D4700BF69BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0952D061A8A1D4700BF69BF /* Images.xcassets */; };
 		C0952D0A1A8A1D4700BF69BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0952D081A8A1D4700BF69BF /* LaunchScreen.xib */; };
 		C0952D161A8A1D4800BF69BF /* SpeechDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0952D151A8A1D4800BF69BF /* SpeechDemoTests.swift */; };
+		C0952D201A8A1F4E00BF69BF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0952D1F1A8A1F4E00BF69BF /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C49427E1D48D22A007559A4 /* CustomSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 		C0952CFA1A8A1D4700BF69BF /* SpeechDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0952CFE1A8A1D4700BF69BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0952CFF1A8A1D4700BF69BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		C0952D0F1A8A1D4800BF69BF /* SpeechDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0952D141A8A1D4800BF69BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0952D151A8A1D4800BF69BF /* SpeechDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechDemoTests.swift; sourceTree = "<group>"; };
+		C0952D1F1A8A1F4E00BF69BF /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				C0952CFF1A8A1D4700BF69BF /* AppDelegate.swift */,
 				C0952D011A8A1D4700BF69BF /* ViewController.swift */,
+				C0952D1F1A8A1F4E00BF69BF /* SettingsViewController.swift */,
+				6C49427E1D48D22A007559A4 /* CustomSlider.swift */,
 				C0952D031A8A1D4700BF69BF /* Main.storyboard */,
 				C0952D061A8A1D4700BF69BF /* Images.xcassets */,
 				C0952D081A8A1D4700BF69BF /* LaunchScreen.xib */,
@@ -156,14 +162,21 @@
 		C0952CF21A8A1D4700BF69BF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Appcoda;
 				TargetAttributes = {
 					C0952CF91A8A1D4700BF69BF = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = T89JWXNBS9;
+						DevelopmentTeamName = "Anbu mani (Personal Team)";
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
 					};
 					C0952D0E1A8A1D4800BF69BF = {
 						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = C0952CF91A8A1D4700BF69BF;
 					};
 				};
@@ -214,6 +227,8 @@
 			files = (
 				C0952D021A8A1D4700BF69BF /* ViewController.swift in Sources */,
 				C0952D001A8A1D4700BF69BF /* AppDelegate.swift in Sources */,
+				C0952D201A8A1F4E00BF69BF /* SettingsViewController.swift in Sources */,
+				6C49427F1D48D22A007559A4 /* CustomSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +287,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -289,9 +305,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -314,6 +331,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -325,8 +343,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -336,9 +355,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				EXECUTABLE_PREFIX = "";
 				INFOPLIST_FILE = SpeechDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcl.erslab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -346,9 +373,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				EXECUTABLE_PREFIX = "";
 				INFOPLIST_FILE = SpeechDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcl.erslab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -367,6 +403,7 @@
 				INFOPLIST_FILE = SpeechDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeechDemo.app/SpeechDemo";
 			};
 			name = Debug;
@@ -382,6 +419,7 @@
 				INFOPLIST_FILE = SpeechDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeechDemo.app/SpeechDemo";
 			};
 			name = Release;
@@ -405,6 +443,7 @@
 				C0952D1B1A8A1D4800BF69BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0952D1C1A8A1D4800BF69BF /* Build configuration list for PBXNativeTarget "SpeechDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +452,7 @@
 				C0952D1E1A8A1D4800BF69BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
