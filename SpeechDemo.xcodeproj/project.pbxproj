@@ -308,7 +308,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "9de0b724-99ee-4f3e-bf9e-f3210ef9d97c";
+				PROVISIONING_PROFILE = "d38912b9-80ec-4a7b-9786-4b3ae671b51d";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -345,7 +345,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "9de0b724-99ee-4f3e-bf9e-f3210ef9d97c";
+				PROVISIONING_PROFILE = "d38912b9-80ec-4a7b-9786-4b3ae671b51d";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -355,26 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: The Western Union Company";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: The Western Union Company";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
-				EXECUTABLE_PREFIX = "";
-				INFOPLIST_FILE = SpeechDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.westernunion.wudemoapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9de0b724-99ee-4f3e-bf9e-f3210ef9d97c";
-				PROVISIONING_PROFILE_SPECIFIER = "Westernunion DemoApp";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		C0952D1B1A8A1D4800BF69BF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: The Western Union Company";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HCL America (4EDX29VVN3)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HCL America (4EDX29VVN3)";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				EXECUTABLE_PREFIX = "";
@@ -383,8 +364,27 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.westernunion.wudemoapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9de0b724-99ee-4f3e-bf9e-f3210ef9d97c";
-				PROVISIONING_PROFILE_SPECIFIER = "Westernunion DemoApp";
+				PROVISIONING_PROFILE = "d38912b9-80ec-4a7b-9786-4b3ae671b51d";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C0952D1B1A8A1D4800BF69BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HCL America (4EDX29VVN3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HCL America (4EDX29VVN3)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				EXECUTABLE_PREFIX = "";
+				INFOPLIST_FILE = SpeechDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.westernunion.wudemoapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d38912b9-80ec-4a7b-9786-4b3ae671b51d";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
